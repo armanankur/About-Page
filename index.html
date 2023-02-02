@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about page</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      <style>
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+background: linear-gradient(90deg, rgba(245,247,250,1) 0%, rgba(187,219,190,1) 100%);
+ background-color: #b4eeb4;
+font-family: sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh;
+width: 100vw;
+    
+}
+h2 {  
+    margin: 10px 0;  
+    color:#e0dbd5;
+    letter-spacing: 2px;
+}   
+h5 {  
+    color:#e0dbd5;  
+    letter-spacing: 2px;
+}  
+.card-container {  
+     background-color:#0a75ad ;   
+    border-radius: 10px;  
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);  
+    color: #c5c7d1;  
+    padding-top: 30px;  
+    position: relative;
+    width: 60%;  
+    max-width: 100%;  
+    text-align: center;  
+}  
+
+.card-container .round {  
+    border: 5px solid #F39C12 ;  
+    border-radius: 50%;  
+    padding: 7px;  
+}  
+
+button.primary {  
+    margin-top: 10px ;
+    background-color: #E5E7E9 ;  
+    border: 1px solid #03BFCB;  
+    border-radius: 8px;  
+    color: #231E39;  
+    font-family: Montserrat, sans-serif;  
+    font-weight: 500;  
+    padding: 10px 25px;  
+}  
+button.primary.ghost {  
+    margin-left: 40px;
+    background-color: transparent;  
+    color: #E5E7E9 ;  
+}  
+button.primary.ghost strong{
+    color: #f6546a;
+    font-weight:bolder;
+}
+
+ .about {  
+    color:#ECF0F1 ;
+    background-color: #f6546a; 
+    text-align: left;  
+    padding: 2rem;  
+    margin-top: 2rem;  
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+} 
+
+.about h4{
+    text-align: center;
+    margin: 5px 0;  
+    color: #1C2833 ;
+    letter-spacing: 1px;
+}
+
+.about p{
+    margin: 20px 0 ;
+    font-size: 1rem;
+}
+p::first-letter{
+    font-size: 2rem;
+    color: #1A5276  ;
+}
+
+      </style>
+  </head>
+
+
+  <body>
+
+  
+    <div class="card-container">
+        
+        <img class="round" src="mypic.jpeg" height="200px" width="200px" alt="user" />
+        <h2>Ankur Anand</h2>
+        <h5>Web Developer</h5>
+
+        <div class="buttons">
+            <button class="primary">About</button>
+            <button class="primary ghost"><strong> 1 M </strong> Followers</button>
+        </div>
+
+        <div class="about">
+                <h4>About Me</h4>
+                <p> I'm a software engineer who constantly seeks out innovative solutions 
+                    to everyday problems. In my two years in this industry, I've honed my analytical 
+                    thinking and collaboration skills, and I love working with a team. I've also had 
+                    the opportunity to serve as the software engineer lead for three projects with First
+                     Technology.
+
+                    “Before my current position, I was a junior software engineer with Mobile First. 
+                    While working there, I committed to mobile system development, which has been my
+                     specialty for two years. I understand that a major part of this role with your 
+                     firm focuses on leading mobile development teams, which my previous experience
+                      has certainly prepared me for.</p>
+        </div>
+
+</div>
+  </body>
+</html>
